@@ -9,10 +9,10 @@ function App() {
         
         {
             id: "2",
-            name: "Sayantan Roy",
+            name: "S Roy",
             email: "sayantanroyinfo@gmail.com",
             age: "00",
-            phone: "1234567890",
+            phone: "321",
             subject: "West Bengal",
             imglink: "https://cdn.pixabay.com/photo/2016/08/31/11/54/icon-1633249_960_720.png",
         },
