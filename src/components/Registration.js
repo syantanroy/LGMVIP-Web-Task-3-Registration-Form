@@ -56,7 +56,7 @@ const Registration = ({onAdd}) => {
       <label className="add-form">Image link: </label>
         <input type="link" placeholder="Enter Image link" value={imglink} onChange={(e)=>setImage(e.target.value)}/>
       </div >
-      <input type="submit" className="bn632-hover bn24" value= "Add Student" />
+      <input type="submit" className="bn632-hover bn24" value= "Submit" />
       </form>
   )
 }

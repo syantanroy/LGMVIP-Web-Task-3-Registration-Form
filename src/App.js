@@ -8,11 +8,11 @@ function App() {
     [
         
         {
-            id: "2",
+            id: "1",
             name: "S Roy",
             email: "sayantanroyinfo@gmail.com",
-            age: "00",
-            phone: "321",
+            age: "XX",
+            phone: "9XXXXXXXX5",
             subject: "West Bengal",
             imglink: "https://cdn.pixabay.com/photo/2016/08/31/11/54/icon-1633249_960_720.png",
         },
