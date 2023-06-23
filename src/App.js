@@ -14,7 +14,7 @@ function App() {
             age: "XX",
             phone: "9XXXXXXXX5",
             subject: "West Bengal",
-            imglink: "https://cdn.pixabay.com/photo/2016/08/31/11/54/icon-1633249_960_720.png",
+            imglink: "https://toppng.com/uploads/preview/blue-person-icon-blue-person-icon-115629039821nthr4gtiu.png",
         },
     ]
 )
