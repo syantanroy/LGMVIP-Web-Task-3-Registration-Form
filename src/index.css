@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#header {
+  margin: 2px;
+  font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    font-size: 26px;
+    font-weight: 510;
+    line-height: 30px;
+    text-align: center;
+}
+
+.container {
+  flex-direction: column;
+  justify-content: space-evenly;
+  display: flex; /* Divide the container into two rows, one for top item and one for bottom items */
+  
+}
+
+.topitem{
+  flex: 1; /* Expand and take up remaining space */
+  margin: 0px;
+}
+
+.bottomitem{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.addform {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 35vw;
+  margin: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.1);
+  background-color: rgba(255,255,255,0.13);
+  align-items: center;
+}
+
+
+
+.form input {
+  color: whitesmoke;
+  display: block;
+  padding: 2px;
+    background-color: rgba(255, 252, 252, 0.07);
+    border-radius: 3px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+  
+}
+::placeholder{
+  color: #e5e5e5;
+  
+}
+label{
+  border: 5px;
+  font-family: 'Poppins',sans-serif;
+  color: #ffffff;
+}
+
+input{
+  display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn24 {
+  background-image: linear-gradient(
+      to right,
+      #6253e1,
+      #852d91,
+      #a3a1ff,
+      #f24645
+    );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+
+.enrolled {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 35vw;
+  margin: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.1);
+  background-color: rgba(255,255,255,0.13);
+  align-items: center;
+}
+
+.enrolledDesign {
+  color: #e5e5e5;
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: rgba(8,7,16,0.6);
+  background-color: rgba(255,255,255,0.13);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin: 8px 13px;
+  padding: px 5px;
+  min-width: 30vw;
+  font-family: 'Poppins',sans-serif;
+  letter-spacing: 0.5px;
+}
+
+
+
+.enrolledDesign div {
+  margin: 10px 10px;
+  font-size: 15px;
+}
+
+.inputline{
+  padding: 2px;
+}
+
+.studentimg img {
+  display: inline;
+  max-width: 86px;
+  /* background-color: crimson; */
+  border: 2px solid rgb(194, 194, 194);
+  padding: 1px 2px;
+
+}
+
+
+
+
+.button-18 {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+
+
+
+.row-wise {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-wise {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1100px) {
+  .container{
+    flex-direction: column;
+  }
+  .addform{
+    margin: 5px 8px;
+  }
+  input.btn{
+    display: block;
+    margin: auto !important;
+  }
+}
+
+
+body{
+  background-image: url(https://wallpaperaccess.com/full/6029509.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
